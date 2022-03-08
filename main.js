@@ -28,5 +28,5 @@ function handleBlur(e) {
     placeholder.style.fontSize = '16px';
   }
   
-  removeEventListener('blur', handleFocus);
+  removeEventListener('blur', handleBlur);
 }
