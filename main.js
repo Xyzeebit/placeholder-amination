@@ -1,6 +1,6 @@
 let input = document.getElementById('input');
 input.addEventListener('focus', handleFocus);
-input.addEventListener('blur', handleBlur)
+input.addEventListener('blur', handleBlur);
 
 function handleFocus(e) {
   let placeholder = document.getElementById('input-label');
