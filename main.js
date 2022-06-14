@@ -1,9 +1,9 @@
-let input = document.getElementById('input');
+const input = document.getElementById('ph_input');
 input.addEventListener('focus', handleFocus);
 input.addEventListener('blur', handleBlur);
 
 function handleFocus(e) {
-  let placeholder = document.getElementById('input-label');
+  let placeholder = document.getElementById('ph_input-label');
   placeholder.style.top = '-6px';
   placeholder.style.left = '10px';
   placeholder.style.fontWeight = 400;
@@ -15,7 +15,7 @@ function handleFocus(e) {
 }
 
 function handleBlur(e) {
-  let placeholder = document.getElementById('input-label');
+  let placeholder = document.getElementById('ph_input-label');
   if(e.target.value == "") {
     placeholder.style.top = '16px';
     placeholder.style.color = 'grey';

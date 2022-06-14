@@ -9,16 +9,17 @@ body {
   justify-content: center;
   align-items: center;
 }
-.input-group {
+/*******Copy from here into your code ******/
+.ph_input-group {
   position: relative;
 }
-.input {
+.ph_input {
   height: 40px;
   width: 300px;
   padding-left: 15px;
   outline-color: black;
 }
-.input-group label {
+.ph_input-group label {
   position: absolute;
   color: grey;
   transition: all 300ms ease-in-out;
@@ -28,3 +29,4 @@ body {
   background: #fff;
   padding: 0 3px 0 3px;
 }
+/*********************************************/
